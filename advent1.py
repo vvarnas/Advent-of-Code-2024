@@ -1,5 +1,5 @@
 import numpy as np 
-with open('/Users/varnas/Desktop/vscode/input.txt') as f:
+with open('/input.txt') as f:
     result = list(zip(*[line.split() for line in f]))
     array1 = np.array(result[0], dtype=float)
     array2 = np.array(result[1], dtype=float)
