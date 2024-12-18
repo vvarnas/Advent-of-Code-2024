@@ -1,7 +1,7 @@
 import re
 test_str = "xmul(2,4)&mul[3,7]!^don't()_mul(5,5)+mul(32,64](mul(11,8)undo()?mul(8,5)do()mul(1,1)don't()don't()mul(1, 2))"
 
-with open("/Users/varnas/Desktop/vscode/input3.txt", "r") as file:
+with open("/input3.txt", "r") as file:
     data = file.read()
 
 #Part 1
