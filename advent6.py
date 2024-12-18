@@ -1,6 +1,6 @@
 from tqdm import tqdm
 
-with open(r"/Users/varnas/Desktop/vscode/input6") as file:
+with open(r"/input6") as file:
     raw_data = [list(line) for line in file.read().strip().split("\n")]
 
 sample = """....#.....
