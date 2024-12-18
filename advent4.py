@@ -1,5 +1,5 @@
 # Specify the file path
-file_path = "/Users/varnas/Desktop/vscode/input4"
+file_path = "/input4"
 
 # Read the file
 with open(file_path, 'r') as file:
