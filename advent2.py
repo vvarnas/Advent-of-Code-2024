@@ -15,7 +15,7 @@ def count_safe_reports(data):
     return safe_count
 
 # Read input data
-with open("/Users/varnas/Desktop/vscode/input2.txt", "r") as file:
+with open("/input2.txt", "r") as file:
     data = file.read().strip().split("\n")
 safe_reports = count_safe_reports(data)
 print(f"Number of safe reports: {safe_reports}")
