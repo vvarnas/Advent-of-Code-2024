@@ -1,7 +1,7 @@
 from itertools import combinations
 import math
 
-with open(r"/Users/varnas/Desktop/vscode/input8") as file:
+with open(r"/input8") as file:
     raw_data = file.read().split("\n")
 raw_data.pop()
 
