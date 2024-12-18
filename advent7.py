@@ -3,7 +3,7 @@ import time
 from itertools import permutations, product
 
 # Read input data
-with open(r"/Users/varnas/Desktop/vscode/input7") as file:
+with open(r"/input7") as file:
     raw_data = file.read().splitlines()
 
 # Sample data for debugging
