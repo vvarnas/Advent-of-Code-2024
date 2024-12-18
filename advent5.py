@@ -1,5 +1,5 @@
 import numpy as np
-with open(r"/Users/varnas/Desktop/vscode/input5") as file:
+with open(r"/input5") as file:
     data_something = file.read()
 
 
